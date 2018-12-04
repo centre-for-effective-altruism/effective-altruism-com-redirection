@@ -1,4 +1,12 @@
 # this is a list of very old redirects from 2 generations of forum ago that were being rewritten on the Reddit clone
+# they appear first so that the chain goes:
+#
+#   1)  |>-  effective-altruism.com/forum-v1-slug/
+#   2)  -->  effective-altruism.com/ea/1a/forum-v1-slug/
+#   3)  ->|  forum.effectivealtruism.com/ea/1a/forum-v1-slug/
+#
+# (Step 3 is handled by the redirects at the end of the file)
+
 /why-we-should-err-in-both-directions/ /ea/6p/why_we_should_err_in_both_directions/ 302
 /conversation-with-holden-karnofsky-nick-beckstead-and-eliezer-yudkowsky-on-the-long-run-perspective-on-effective-altruism/ /ea/6o/conversation_with_holden_karnofsky_nick_beckstead/ 302
 /strategic-considerations-about-different-speeds-of-ai-takeoff/ /ea/6m/strategic_considerations_about_different_speeds/ 302
@@ -111,7 +119,11 @@
 /giving-isnt-demanding/ /ea/3j/giving_isnt_demanding/ 302
 
 
-# the main redirection happens here
+# the main domain redirection happens here:
+
+# redirects an old naked domain to the new naked domain
 / https://forum.effectivealtruism.org 302
+# redirects the old RSS feed to the new one
 /.rss https://forum.effectivealtruism.org/feed.xml 302
+# redirects any other path
 /* https://forum.effectivealtruism.org/:splat 302
