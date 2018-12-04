@@ -1,8 +1,3 @@
-# the main redirection happens here
-/ https://forum.effectivealtruism.org 302
-/.rss https://forum.effectivealtruism.org/feed.xml 302
-/* https://forum.effectivealtruism.org/:splat 302
-
 # this is a list of very old redirects from 2 generations of forum ago that were being rewritten on the Reddit clone
 /why-we-should-err-in-both-directions/ /ea/6p/why_we_should_err_in_both_directions/ 302
 /conversation-with-holden-karnofsky-nick-beckstead-and-eliezer-yudkowsky-on-the-long-run-perspective-on-effective-altruism/ /ea/6o/conversation_with_holden_karnofsky_nick_beckstead/ 302
@@ -114,3 +109,9 @@
 /how-to-be-a-high-impact-philosopher/ /ea/3m/how_to_be_a_high_impact_philosopher/ 302
 /practical-ethics-given-moral-uncertainty/ /ea/3n/practical_ethics_given_moral_uncertainty/ 302
 /giving-isnt-demanding/ /ea/3j/giving_isnt_demanding/ 302
+
+
+# the main redirection happens here
+/ https://forum.effectivealtruism.org 302
+/.rss https://forum.effectivealtruism.org/feed.xml 302
+/* https://forum.effectivealtruism.org/:splat 302
