@@ -122,8 +122,8 @@
 # the main domain redirection happens here:
 
 # redirects an old naked domain to the new naked domain
-/ https://forum.effectivealtruism.org 301
+/ https://forum.effectivealtruism.org 301!
 # redirects the old RSS feed to the new one
-/.rss https://forum.effectivealtruism.org/feed.xml 301
+/.rss https://forum.effectivealtruism.org/feed.xml 301!
 # redirects any other path
-/* https://forum.effectivealtruism.org/:splat 301
+/* https://forum.effectivealtruism.org/:splat 301!
